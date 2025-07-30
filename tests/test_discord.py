@@ -15,7 +15,7 @@ def test_discord(app):
         "$cache": '../instructions/Information/Clear Nvidia Shader.md',
         "$dx11": '../instructions/Information/DirectX11.md',
         "$performance": '../instructions/Information/Performance + Settings.md',
-        "$support": '../instructions/Information/support.md',
+        "$support": '../instructions/Information/Help Template.md',
         "$ctd": '../instructions/Problems/Crashes/Crashes to Desktop.md',
         "$crashstart": '../instructions/Problems/Crashes/Crash on Startup.md',
         "24h2": '../instructions/Problems/Crashes/Windows 11 24H2 Gaming Fix.md'
