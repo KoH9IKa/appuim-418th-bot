@@ -1,11 +1,5 @@
 import time
-
-from appium import webdriver
-from appium.options.android import UiAutomator2Options
-from appium.options.windows import WindowsOptions
 from appium.webdriver.common.appiumby import AppiumBy
-from packaging.tags import android_platforms
-from selenium.webdriver.common.by import By
 from pages.base_page import BasePage
 
 

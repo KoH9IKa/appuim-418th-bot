@@ -1,10 +1,4 @@
-from appium import webdriver
-from appium.options.android import UiAutomator2Options
-from appium.options.windows import WindowsOptions
-from appium.webdriver.common.appiumby import AppiumBy
-from packaging.tags import android_platforms
 import re
-
 from selenium.webdriver import Keys
 from selenium.webdriver.support.ui import WebDriverWait as Wait
 from selenium.webdriver.support import expected_conditions

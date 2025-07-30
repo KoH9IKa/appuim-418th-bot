@@ -1,12 +1,8 @@
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
-# from appium.options.windows import WindowsOptions
-# from packaging.tags import android_platforms
-
 import os
 from dotenv import load_dotenv
 import pytest
-
 from pages.discord import DiscordPages
 
 
