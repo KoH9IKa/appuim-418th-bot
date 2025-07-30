@@ -1,6 +1,5 @@
 import time
 import re
-from appium.webdriver.common.appiumby import AppiumBy
 
 
 def test_discord(app):
@@ -43,7 +42,7 @@ def test_discord(app):
                             app.dis.click_on_send_message()
                             last_used_tag = tag  # Запоминаем новый активный тег
                             # print(last_used_tag)
-                            time.sleep(1)  #35 это 30 + запас, 30 это таймаут в канале
+                            time.sleep(35)  #35 это 30 + запас, 30 это таймаут в канале
                             break
             if not any_tags_found:  # Если в последних сообщениях не обнаружено ни одного тега, очищаем текущий тег
                 last_used_tag = None

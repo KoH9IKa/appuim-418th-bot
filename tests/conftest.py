@@ -28,7 +28,7 @@ class Application:
         capabilities = {"platformName":"Android",
                         "automationName": "uiautomator2",  # плагин для автоматизации
                         "appPackage": "com.discord",  # имя приложения в системе, что бы узнать пишем adb shell pm list package в командной строке при подключенном устройстве/эмуляторе
-                        "noReset": True,  # флаг сбрасывающий текущее положение
+                        "noReset": False,  # флаг сбрасывающий текущее положение
                         'newCommandTimeout': 40,  # таймаут между командами, не должен быть меньше самого длинного ожидания
                         "udid": "emulator-5554"}  # эмулятор в Андроид Студио
                         # "udid": "RZ8M840C60F"  # реальное устройство
