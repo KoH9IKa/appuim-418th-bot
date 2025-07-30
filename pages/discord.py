@@ -103,6 +103,5 @@ class DiscordPages(BasePage):
         self.fill_text(self.MESSAGE_INPUT, message)
         time.sleep(3)
 
-
     def click_on_send_message(self):
         self.click(self.SEND_MESSAGE)
