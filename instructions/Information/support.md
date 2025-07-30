@@ -1,0 +1,1 @@
+Please check pinned messages! Here is where players can help each other solve in-game and tech problems | for official support and bug reporting go here https://arrowhead.zendesk.com/

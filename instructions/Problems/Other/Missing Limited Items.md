@@ -1,0 +1,2 @@
+# Description
+Every now and then Users complain about missing certain items, such as the Cape for Malevelon Creek. These items were handed out to players who participated, so those who did not will not receive it unless Arrowhead decide to implement a feature to get them somehow.
